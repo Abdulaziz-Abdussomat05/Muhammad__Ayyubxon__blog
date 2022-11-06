@@ -1,0 +1,43 @@
+.hero__main {
+  ul {
+    width: 70%;
+    margin: 0 auto;
+    li {
+      a {
+        display: flex;
+        align-items: center;
+        background-color: #621936;
+       margin: 0 auto;
+        margin-bottom: 20px;
+        border-radius: 10px;
+       
+      }
+      i {
+        font-size:40px;
+        color: white;
+        border-right: 1px solid black;
+        padding:20px;
+        height: 100%;
+      }
+      h3 {
+        color: white;
+        margin-left: 10px;
+      }
+   
+    }
+  
+  }
+    .hero__bottom {
+      margin:50px 0;
+      a {
+        color: white;
+        font-size: 20px;
+
+      }
+    
+    i {
+      margin-right: 5px;
+    }
+  }
+}
+

@@ -1,0 +1,143 @@
+.header__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin-bottom: 50px;
+}
+.header__main img {
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.header__main ul li {
+  margin-bottom: 15px;
+}
+.header__main ul li h1 {
+  font-weight: 400;
+  color: white;
+}
+.header__main ul li h3 {
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 200px;
+  width: 300px;
+  font-weight: 400;
+}
+.header__main ul li p {
+  width: 300px;
+  text-align: start;
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.hero__main ul {
+  width: 70%;
+  margin: 0 auto;
+}
+.hero__main ul li a {
+  display: flex;
+  align-items: center;
+  background-color: #621936;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.hero__main ul li i {
+  font-size: 40px;
+  color: white;
+  border-right: 1px solid black;
+  padding: 20px;
+  height: 100%;
+}
+.hero__main ul li h3 {
+  color: white;
+  margin-left: 10px;
+}
+.hero__main .hero__bottom {
+  margin: 50px 0;
+}
+.hero__main .hero__bottom a {
+  color: white;
+  font-size: 20px;
+}
+.hero__main .hero__bottom i {
+  margin-right: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #8D1B42;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 370px;
+    margin: 0 auto;
+  }
+  .header__main {
+    flex-direction: column;
+    padding: 20px 0;
+    margin-bottom: 50px;
+  }
+  .header__main p {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero__main ul {
+    width: 370px;
+  }
+  .hero__main ul li i {
+    font-size: 20px;
+  }
+}
+@media (max-width: 478px) {
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .header__main h1 {
+    font-size: 23px;
+    margin-top: 15px;
+  }
+  .header__main h3 {
+    font-size: 18px;
+  }
+  .header__main .header__text {
+    font-size: 16px;
+    width: 200px;
+    text-align: center;
+  }
+  .hero__main ul {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hero__main ul li i {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */
